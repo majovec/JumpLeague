@@ -1,6 +1,6 @@
 <?php
 
-namespace Bluplayz\JumpLeague\Main;
+namespace jl\JumpLeague\Main;
 
 use jl\JumpLeague\Commands\CommandJumpLeague;
 use jl\JumpLeague\Game\ArenaManager;
