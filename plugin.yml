@@ -1,0 +1,8 @@
+name: JumpLeague
+version: 1.0
+api: 3.0.0-Alpha4
+main: jl\JumpLeague
+commands:
+    JumpLeague:
+        description: "JL Main Command"
+        aliases: [jl]
