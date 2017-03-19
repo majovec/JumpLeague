@@ -90,7 +90,7 @@ class JumpLeague extends PluginBase
             }
         }
 
-        $this->getLogger()->info(self::PREFIX . TextFormat::GOLD . " EnderGames geladen");
+         $this->getLogger()->info(self::PREFIX . TextFormat::GOLD . " EnderGames geladen");
     }
 
     public static function getInstance()
