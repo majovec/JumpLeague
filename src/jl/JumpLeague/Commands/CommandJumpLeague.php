@@ -17,7 +17,7 @@ class CommandJumpLeague extends Command
         parent::__construct("EnderGames", "", null, ["jl"]);
     }
 
-    public function execute(CommandSender $sender, $label, array $args)
+    public function execute(CommandSender $sender, string $label, array $args)
     {
         if (empty($args[0])) {
             self::help($sender, $label, $args);
